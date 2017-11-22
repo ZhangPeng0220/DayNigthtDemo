@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a53478.daynightdemo.MainActivity">
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:fitsSystemWindows="true"
+        app:titleTextColor="@color/textColorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="网易娱乐11月21日报道 由梅峰执导，范伟、殷桃、张超、史依弘、王瀚邦、
+        王梓桐等人主演的电影《不成问题的问题》今日正式全国上映，该片讲述了1940年代重庆一
+        座农场更换主任而引发的连锁事件，被誉为年度“职场最佳教科书”，“所有人都能看懂的文艺片”，
+        亦被观众成为今年“影院最强”。全国百场点映场场爆满，好评无数，不少观众表示这部电影对现实和职场的讽刺力度和中国风美学都值得二刷三刷。
+范伟影帝级教科书表演 演绎独属中国人的人情事
+斩获金马双奖及多个国内外奖项的《不成问题的问题》，最为人称道的是改编剧本的
+辛辣程度和范伟无可替代的角色诠释。中国社会是一个人情社会，牵扯的不仅是具体的事，还有人与人的交往，面子与人情。不少参加点映的观众都从电影中窥见了人情交往的罅隙，打中了众多观众的痛点。梅峰导演在此前的首映礼上说道，范伟饰演的丁务源就是片名中“不成问题”的指代，整部电影正是围绕着这个人所展开的各种问题，不仅牵涉到权利，还牵涉到职场中的人事、人情，是社会的缩影。范伟也在首映礼上与观众交流，“丁务源是戏精，资深的戏精老前辈。”正是这样浓缩型的故事和表演，让《不成问题的问题》辛辣的看透了职场中的门道，给观众展现出了"
+        android:background="@color/item_bg"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
